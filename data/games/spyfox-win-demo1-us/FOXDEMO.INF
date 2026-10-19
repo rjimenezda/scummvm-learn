@@ -1,0 +1,86 @@
+[StartupOptions]
+;Bitmap=ja-ad.bmp
+
+[GameOptions]
+PauseCaption=SPYFox in Dry Cereal Demo
+PauseMsg=Press the play button to continue playing SPYFox Demo.
+QuitMsg=Are you sure you want to leave SPYFox Demo?
+RestartMsg=Are you sure you want to restart SPYFox Demo?
+OptionCaption=SPYFox in Dry Cereal Demo Options
+PrintSetup=1
+Option1=No Background &Music
+Option2=Slow Machine &Inventory
+Option3=No &Background Sound
+Option4=&No Printing 
+
+
+[SoundCardWindowInfo]
+Title=Sound Card Options
+Message=Please choose an option that sounds best to you.
+
+[SoundCardOption0]
+Text=&1) Default setting.
+OptionA=NoResetOnMix=0
+OptionB=ResetBeforeFirstMix=1
+OptionC=PauseAndRestartOnMix=
+OptionD=DMAAheadSampleCount=
+OptionE=RampUpSampleCount=
+OptionF=CreateSamples=
+OptionG=LeadingSilenceSize=
+OptionH=AllowSoftRemix=
+
+[SoundCardOption1]
+Text=&2) Mix without resetting.
+OptionA=NoResetOnMix=1
+OptionB=DMAAheadSampleCount=1
+OptionC=ResetBeforeFirstMix=1
+OptionD=PauseAndRestartOnMix=0
+OptionE=RampUpSampleCount=
+OptionF=CreateSamples=
+OptionG=LeadingSilenceSize=
+OptionH=AllowSoftRemix=
+
+[SoundCardOption2]
+Text=&3) Delays when starting.
+OptionA=NoResetOnMix=1
+OptionB=DMAAheadSampleCount=2
+OptionC=ResetBeforeFirstMix=1
+OptionD=PauseAndRestartOnMix=0
+OptionE=RampUpSampleCount=
+OptionF=CreateSamples=
+OptionG=LeadingSilenceSize=
+OptionH=AllowSoftRemix=
+
+[SoundCardOption3]
+Text=&4) Pauses before mix.
+OptionA=NoResetOnMix=0
+OptionB=DMAAheadSampleCount=
+OptionC=ResetBeforeFirstMix=1
+OptionD=PauseAndRestartOnMix=1
+OptionE=RampUpSampleCount=
+OptionF=CreateSamples=
+OptionG=LeadingSilenceSize=
+OptionH=AllowSoftRemix=
+
+[SoundCardOption4]
+Text=&5) Don't reuse buffers.
+OptionA=NoResetOnMix=0
+OptionB=DMAAheadSampleCount=
+OptionC=ResetBeforeFirstMix=1
+OptionD=PauseAndRestartOnMix=
+OptionE=RampUpSampleCount=
+OptionF=CreateSamples=1
+OptionG=LeadingSilenceSize=
+OptionH=AllowSoftRemix=
+
+[SoundCardOption5]
+Text=&6) Mix with silence.
+OptionA=NoResetOnMix=1
+OptionB=DMAAheadSampleCount=1
+OptionC=ResetBeforeFirstMix=1
+OptionD=PauseAndRestartOnMix=0
+OptionE=RampUpSampleCount=
+OptionF=CreateSamples=
+OptionG=LeadingSilenceSize=1024
+OptionH=AllowSoftRemix=
+
